@@ -1,0 +1,184 @@
+html, body{
+    margin: 0px;
+}
+
+@media only screen and (max-width:620px) {
+    body{
+        background-color: lightblue;
+        width: 100%;
+    }
+}
+
+body {
+    background-color: wheat;
+}
+
+.gov{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.canada-logo{
+    height: 100px;
+    width: 150px;
+    margin: 20px;
+}
+
+.canada-gov{
+    color: #B84B49;
+    text-align: center;
+}
+
+h4{
+    font-size: 40px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.header {
+    flex: 1;
+}
+
+.backgr_nav {
+    background-color: #B84B49;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    padding-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    background-color: #B84B49;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FF9D9C;
+}
+
+.food-guide{
+    font-size: 20px;
+    background-color: #B84B49;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    height: 80px;
+    width: 150px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.food-choices{
+    font-size: 30px;
+    color: #B84B49;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    background-color: #FF9D9C;
+    margin-top: 20px;
+}
+
+hr{
+    color:#B84B49; 
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.checkout{
+    margin-left: 60px;
+}
+
+.recipes-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.recipes-img{
+    height: 200px;
+    width: 400px;
+    margin-right: 60px;
+}
+
+h1{
+    margin-left: 40px;
+}
+
+.breakfast-main{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.breakfast-one{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: 600px;
+}
+
+.brkp{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+}
+
+.video{
+    text-align: center;
+}
+
+.footerdiv {
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 5px;
+    background-color: #B84B49;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.colorConnected {
+    display: flex;
+    justify-content: center;
+    color: #FF9D9C;
+    font-size: 20px;
+}
